@@ -11,7 +11,7 @@ window.addEventListener("resize", resizeCanvas);
 
 // بارگذاری تصاویر
 const playerImg = new Image();
-playerImg.src = "PIZZA-KHOOR.png";
+playerImg.src = "PIZZA-KHOOR.dddpng";
 
 const obstacleImg = new Image();
 obstacleImg.src = "shit.WEBP";
@@ -225,3 +225,4 @@ setInterval(() => {
 
 
 gameLoop();
+
