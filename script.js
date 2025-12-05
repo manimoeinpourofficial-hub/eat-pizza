@@ -38,13 +38,13 @@ let pizzaProbability = 0.3;
 
 // 🎵 صداها
 const pizzaSounds = [
-  new Audio("sounds/pizza1.ogg"),
-  new Audio("sounds/pizza2.ogg")
+  new Audio("pizza1.ogg"),
+  new Audio("pizza2.ogg")
 ];
 
 const gameOverSounds = [
-  new Audio("sounds/gameover1.ogg"),
-  new Audio("sounds/gameover1.ogg")
+  new Audio("gameover1.ogg"),
+  new Audio("gameover1.ogg")
 ];
 
 function playRandomSound(soundArray) {
@@ -222,5 +222,6 @@ setInterval(() => {
 setInterval(() => {
   if (Math.random() < 0.2) spawnBlue();
 }, 7000);
+
 
 gameLoop();
